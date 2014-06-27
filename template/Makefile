@@ -1,9 +1,4 @@
 
-#
-# {{name}}
-# {{description}}
-#
-
 
 #
 # Settings
