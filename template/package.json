@@ -2,12 +2,12 @@
   "name": "{{basename}}",
   "version": "0.0.0",
   "description": "{{description}}",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "git://github.com/bdo-labs/{{basename}}.git",{{#mit}}
   "license": "MIT",{{/mit}}
   "atomify": {
     "js": {
-      "entry": "index.js",
+      "entry": "lib/index.js",
       "output": "build/build.js"
     }
   },

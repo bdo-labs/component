@@ -2,33 +2,29 @@
 {{basename}}
 ============
 
-A {{basename}} component
+{{description}}
 
 
-Installation
-------------
+## Installation
 
     $ git clone https://github.com/bdo-labs/{{basename}}.git
     $ make -s
 
 
-Running tests
--------------
+## Running tests
 
     $ make -s test
 
 
-API
----
+## API
 
 ```Javascript
-var {{basename}} = require('{{basename}}');
+    var {{basename}} = require('{{basename}}');
 ```
 
 
 {{#mit}}
-License
--------
+## License
 
 The MIT License
 

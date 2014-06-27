@@ -5,24 +5,21 @@ Component template
 A Khaos template to start a new bdo-browserify/angular component quickly.
 
 
-Installation
-------------
+## Installation
 
 Save the template locally with:
 
     $ khaos --save bdo-labs/component component
 
 
-Usage
------
+## Usage
 
 Create a new component project with:
 
     $ khaos component component-name
 
 
-License
--------
+## License
 
 The MIT License
 
