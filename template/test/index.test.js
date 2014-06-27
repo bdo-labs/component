@@ -3,7 +3,7 @@
  * Test dependencies.
  */
 var assert = require('better-asset');
-var {{name}} = require('..');
+var {{basename}} = require('..');
 
-describe('{{name}}', function(){});
+describe('{{basename}}', function(){});
 

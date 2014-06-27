@@ -5,7 +5,7 @@
 var angular = require('angular');
 
 /**
- * Expose {{name}}.
+ * Expose {{basename}}.
  */
-var {{name}} = module.exports = angular.module('{{name}}', []);
+var {{basename}} = module.exports = angular.module('{{basename}}', []);
 

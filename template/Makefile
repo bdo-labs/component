@@ -28,7 +28,7 @@ PATH=node_modules/bin:$(PATH)
 build: node_modules $(SRC)
 	atomify
 	@echo ""
-	@echo "    {{name}} was built!"
+	@echo "    {{basename}} was built!"
 	@echo ""
 
 node_modules: package.json

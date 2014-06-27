@@ -1,14 +1,14 @@
 
-{{name}}
-=========
+{{basename}}
+============
 
-A {{name}} component
+A {{basename}} component
 
 
 Installation
 ------------
 
-    $ git clone https://github.com/bdo-labs/{{name}}.git
+    $ git clone https://github.com/bdo-labs/{{basename}}.git
     $ make -s
 
 
@@ -22,7 +22,7 @@ API
 ---
 
 ```Javascript
-var {{name}} = require('{{name}}');
+var {{basename}} = require('{{basename}}');
 ```
 
 
