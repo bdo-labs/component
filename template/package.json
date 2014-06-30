@@ -1,26 +1,31 @@
 {
-  "name": "{{basename}}",
-  "version": "0.0.0",
-  "description": "{{description}}",
-  "main": "lib/index.js",
-  "repository": "git://github.com/bdo-labs/{{basename}}.git",{{#mit}}
-  "license": "MIT",{{/mit}}
-  "atomify": {
-    "js": {
-      "entry": "lib/index.js",
-      "output": "build/build.js"
-    }
-  },
-  "browserify": {
-    "transforms": [
-      "partialify"
-    ]
-  },
-  "devDependencies": {
-    "angular": "^1.2.18",
-    "atomify": "^3.1.2",
-    "better-assert": "^1.0.0",
-    "mocha": "^1.20.1",
-    "partialify": "^3.1.1"
-  }
+	"name": "{{basename}}",
+	"version": "0.0.0",
+	"description": "{{description}}",
+	"main": "lib/index.js",
+	"repository": "git://github.com/bdo-labs/{{basename}}.git",{{#mit}}
+	"license": "MIT",{{/mit}}
+	"scripts": {
+		"test": "karma start"
+	},
+	"atomify": {
+		"js": {
+			"entry": "lib/index.js",
+			"output": "build/build.js"
+		}
+	},
+	"browserify": {
+		"transforms": [
+			"partialify"
+		]
+	},
+	"devDependencies": {
+		"angular": "^1.2.18",
+		"atomify": "^3.1.2",
+		"partialify": "^3.1.1",
+		"browserify": "^4.2.0",
+		"karma": "^0.12.16",
+		"karma-browserifast": "^0.6.1",
+		"karma-jasmine": "^0.1.5"
+	}
 }
