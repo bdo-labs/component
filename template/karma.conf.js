@@ -18,6 +18,7 @@ module.exports = function(config) {
 
 		// list of files / patterns to load in the browser
 		files: [
+			'node_modules/angular/lib/angular.min.js',
 			'test/lib/angular-mocks.js',
 			'test/**/*.test.js'
 		],
@@ -31,7 +32,7 @@ module.exports = function(config) {
 			files: [
 				'lib/**/*.js',
 			],
-			debug: true
+			transform: ['partialify']
 		},
 
 
