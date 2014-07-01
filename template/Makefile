@@ -30,14 +30,14 @@ build: node_modules $(SRC)
 	mkdir -p $@
 	atomify
 	@echo ""
-	@echo "    scorecard was built!"
+	@echo "    {{basename}} was built!"
 	@echo ""
 
 node_modules: package.json
 	npm install
 
 test: build
-	mocha --reporter $(REPORTER) $(TESTS)
+	karma start	
 
 clean:
 	rm -fr build
