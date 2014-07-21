@@ -1,12 +1,18 @@
+
+0.0.18 / 2014-07-21
+==================
+
+ * Made css optional and added mocks as dependency
+
 0.0.17 / 2014-07-02
 ==================
 
-	* Bufgixes
+ * Bufgixes
 
 0.0.16 / 2014-07-01
 ==================
 
-	* Fix testing bugs
+ * Fix testing bugs
 
 0.0.15 / 2014-07-01
 ==================
