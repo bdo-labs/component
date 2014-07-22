@@ -6,12 +6,12 @@
   "style": "lib/styles.css",{{/css}}
   "repository": "git://github.com/bdo-labs/{{basename}}.git",
   "license": "MIT",
-  "atomify": {{{#css}}
-    "css": {
+  "atomify": {
+    {{#css}}"css": {
       "entry": "lib/styles.css"
-    },{{/css}}
-    "js": {
-      "entry": "lib/index.js",
+    },
+    {{/css}}"js": {
+      "entry": "lib/index.js"
     }
   },
   "browserify": {
