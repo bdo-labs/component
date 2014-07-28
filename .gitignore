@@ -1,1 +1,7 @@
 .DS_Store
+
+node_modules
+
+# Vim backup and swap files
+*~
+*.swp
